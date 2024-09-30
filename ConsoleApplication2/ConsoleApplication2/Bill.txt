@@ -1,0 +1,9 @@
+Account number: #2341
+---------------------------------------
+
+Bill processing fee:             $4.50
+Basic Service fee:               $20.50
+Premium channels:            4 @ $7.50
+---------------------------------------
+
+Your total bill is:              $55.00

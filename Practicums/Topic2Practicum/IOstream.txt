@@ -1,0 +1,21 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+    ifstream ifs;
+    ifs.open("Data.txt");
+    char temp = ifs.peek();
+    cout << "Hello world!" << endl<<temp<<endl;
+    ifs.get(temp);
+    cout << temp;
+    ifs.close();
+    ostream ofs;
+    ofs.open("Data.txt")
+    ofs << "It was not a cat, rather a mongoose \n now you know \n"<<endl;
+    ofs.close();
+
+    return 0;
+}

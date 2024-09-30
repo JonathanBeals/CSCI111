@@ -1,0 +1,9 @@
+Account Number: #12
+-----------------------------------------
+Bill processing fee:             $15.00
+Basic Service fee:               $75.00
+Premium channels:         4233 @ $50.00
+Service Connections:       123 @ $75.00
+----------------------------------------
+
+Your total bill is:             $220965.00

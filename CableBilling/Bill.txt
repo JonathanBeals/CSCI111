@@ -1,0 +1,10 @@
+Account Number: #6445678873234567
+-----------------------------------------
+
+Bill processing fee:             $15.00
+Basic Service fee:               $75.00
+Premium channels:            7 @ $50.00
+Service Connections:        50 @ $75.00
+----------------------------------------
+
+Your total bill is:             $4190.00

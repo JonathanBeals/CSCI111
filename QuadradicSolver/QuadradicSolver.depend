@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1724982171 source:c:\users\jonbe\onedrive\desktop\csci111\quadradicsolver\main.cpp
+	<iostream>
+	<cmath>
+
