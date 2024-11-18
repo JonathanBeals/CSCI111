@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JonBe\\source\\repos\\Recitation9topic1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85157963-7091-42EC-A70F-DFBBA64302E1}|Recitation9topic1\\Recitation9topic1.vcxproj|C:\\Users\\JonBe\\source\\repos\\Recitation9topic1\\Recitation9topic1\\Recitation9topic1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{85157963-7091-42EC-A70F-DFBBA64302E1}|Recitation9topic1\\Recitation9topic1.vcxproj|solutionrelative:Recitation9topic1\\Recitation9topic1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Recitation9topic1.cpp",
+              "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\Recitation9topic1\\Recitation9topic1\\Recitation9topic1.cpp",
+              "RelativeDocumentMoniker": "Recitation9topic1\\Recitation9topic1.cpp",
+              "ToolTip": "C:\\Users\\JonBe\\source\\repos\\Recitation9topic1\\Recitation9topic1\\Recitation9topic1.cpp",
+              "RelativeToolTip": "Recitation9topic1\\Recitation9topic1.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T16:49:52.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JonBe\\source\\repos\\BankAccountmanagerapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE70F5D9-CD24-4B4D-9F71-FEFD1B7AB85E}|BankAccountmanagerapp\\BankAccountmanagerapp.vcxproj|C:\\Users\\JonBe\\source\\repos\\BankAccountmanagerapp\\BankAccountmanagerapp\\BankAccountmanagerapp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE70F5D9-CD24-4B4D-9F71-FEFD1B7AB85E}|BankAccountmanagerapp\\BankAccountmanagerapp.vcxproj|solutionrelative:BankAccountmanagerapp\\BankAccountmanagerapp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankAccountmanagerapp.cpp",
+              "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\BankAccountmanagerapp\\BankAccountmanagerapp\\BankAccountmanagerapp.cpp",
+              "RelativeDocumentMoniker": "BankAccountmanagerapp\\BankAccountmanagerapp.cpp",
+              "ToolTip": "C:\\Users\\JonBe\\source\\repos\\BankAccountmanagerapp\\BankAccountmanagerapp\\BankAccountmanagerapp.cpp",
+              "RelativeToolTip": "BankAccountmanagerapp\\BankAccountmanagerapp.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-21T17:03:13.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

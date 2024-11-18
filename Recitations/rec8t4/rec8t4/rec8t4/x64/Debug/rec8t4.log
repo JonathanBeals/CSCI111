@@ -1,0 +1,11 @@
+﻿  rec8t4.cpp
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(17,20): error C2065: 'Day': undeclared identifier
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(17,25): error C2275: 'day': expected an expression instead of a type
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(17,30): error C2143: syntax error: missing ';' before '{'
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(18,2): error C2059: syntax error: 'switch'
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(18,15): error C2143: syntax error: missing ';' before '{'
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(18,15): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(28,1): error C2059: syntax error: '}'
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(28,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(31,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\JonBe\source\repos\rec8t4\rec8t4\rec8t4.cpp(31,1): error C2447: '{': missing function header (old-style formal list?)

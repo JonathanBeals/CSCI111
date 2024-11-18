@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JonBe\\source\\repos\\Topic9Practicum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47E86445-1C5C-4F6A-9A62-B95E2469A221}|Topic9Practicum\\Topic9Practicum.vcxproj|C:\\Users\\JonBe\\source\\repos\\Topic9Practicum\\Topic9Practicum\\Topic9Practicum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{47E86445-1C5C-4F6A-9A62-B95E2469A221}|Topic9Practicum\\Topic9Practicum.vcxproj|solutionrelative:Topic9Practicum\\Topic9Practicum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Topic9Practicum.cpp",
+              "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\Topic9Practicum\\Topic9Practicum\\Topic9Practicum.cpp",
+              "RelativeDocumentMoniker": "Topic9Practicum\\Topic9Practicum.cpp",
+              "ToolTip": "C:\\Users\\JonBe\\source\\repos\\Topic9Practicum\\Topic9Practicum\\Topic9Practicum.cpp",
+              "RelativeToolTip": "Topic9Practicum\\Topic9Practicum.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-16T16:53:44.135Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

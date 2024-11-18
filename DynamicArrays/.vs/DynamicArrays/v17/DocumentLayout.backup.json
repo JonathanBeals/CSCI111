@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JonBe\\source\\repos\\DynamicArrays\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB45832C-6C79-4970-937C-1EA36FAFEB12}|DynamicArrays\\DynamicArrays.vcxproj|C:\\Users\\JonBe\\source\\repos\\DynamicArrays\\DynamicArrays\\DynamicArrays.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB45832C-6C79-4970-937C-1EA36FAFEB12}|DynamicArrays\\DynamicArrays.vcxproj|solutionrelative:DynamicArrays\\DynamicArrays.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 289,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DynamicArrays.cpp",
+              "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\DynamicArrays\\DynamicArrays\\DynamicArrays.cpp",
+              "RelativeDocumentMoniker": "DynamicArrays\\DynamicArrays.cpp",
+              "ToolTip": "C:\\Users\\JonBe\\source\\repos\\DynamicArrays\\DynamicArrays\\DynamicArrays.cpp",
+              "RelativeToolTip": "DynamicArrays\\DynamicArrays.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-07T18:03:43.129Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

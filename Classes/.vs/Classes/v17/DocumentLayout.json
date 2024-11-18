@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JonBe\\source\\repos\\Classes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F503299-DBA4-4ECE-9131-D5C47264FD92}|Classes\\Classes.vcxproj|C:\\Users\\JonBe\\source\\repos\\Classes\\Classes\\clockType.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F503299-DBA4-4ECE-9131-D5C47264FD92}|Classes\\Classes.vcxproj|solutionrelative:Classes\\clockType.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clockType.cpp",
+              "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\Classes\\Classes\\clockType.cpp",
+              "RelativeDocumentMoniker": "Classes\\clockType.cpp",
+              "ToolTip": "C:\\Users\\JonBe\\source\\repos\\Classes\\Classes\\clockType.cpp",
+              "RelativeToolTip": "Classes\\clockType.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-29T16:53:21.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

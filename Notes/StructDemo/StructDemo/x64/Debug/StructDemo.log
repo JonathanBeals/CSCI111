@@ -1,0 +1,80 @@
+﻿  StructDemo.cpp
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(35,10): error C2275: 'Item': expected an expression instead of a type
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(35,15): error C2146: syntax error: missing ')' before identifier 'inventory'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(35,15): error C2146: syntax error: missing ';' before identifier 'inventory'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(35,45): error C2059: syntax error: ')'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(36,10): error C2275: 'Item': expected an expression instead of a type
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(36,15): error C2146: syntax error: missing ')' before identifier 'inventory'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(36,15): error C2146: syntax error: missing ';' before identifier 'inventory'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(36,45): error C2059: syntax error: ')'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(37,10): error C2275: 'Item': expected an expression instead of a type
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(37,15): error C2146: syntax error: missing ')' before identifier 'inventory'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(37,15): error C2146: syntax error: missing ';' before identifier 'inventory'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(37,45): error C2059: syntax error: ')'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(84,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,34): error C2143: syntax error: missing ';' before 'string'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,39): error C2146: syntax error: missing ';' before identifier 'inventory'
+C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,57): error C2676: binary '<<': 'const std::string' does not define this operator or a conversion to a type acceptable to the predefined operator
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3420,32):
+      could be 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1979,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3761,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(694,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(738,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(774,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(819,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(857,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(900,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(936,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(942,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(947,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(953,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'const std::string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1011,9):
+      or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1010,103):
+              '<template-parameter>': you cannot create a pointer to a reference
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1088,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\JonBe\source\repos\StructDemo\StructDemo\StructDemo.cpp(120,51):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'const std::string'
+  

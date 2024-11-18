@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JonBe\\source\\repos\\StructDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB2F1EA-D8A7-4D31-9449-9B9A58086B95}|StructDemo\\StructDemo.vcxproj|C:\\Users\\JonBe\\source\\repos\\StructDemo\\StructDemo\\StructDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BBB2F1EA-D8A7-4D31-9449-9B9A58086B95}|StructDemo\\StructDemo.vcxproj|solutionrelative:StructDemo\\StructDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StructDemo.cpp",
+              "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\StructDemo\\StructDemo\\StructDemo.cpp",
+              "RelativeDocumentMoniker": "StructDemo\\StructDemo.cpp",
+              "ToolTip": "C:\\Users\\JonBe\\source\\repos\\StructDemo\\StructDemo\\StructDemo.cpp",
+              "RelativeToolTip": "StructDemo\\StructDemo.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-08T17:04:30.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
