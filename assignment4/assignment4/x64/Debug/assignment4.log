@@ -1,40 +1,4 @@
 ﻿  assignment4.cpp
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(9,13): error C2143: syntax error: missing ';' before '*'
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(9,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(9,23): error C2238: unexpected token(s) preceding ';'
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(14,56): error C2614: 'Book': illegal member initialization: 'borrower' is not a base or member
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(16,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(19,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(29,16): error C2065: 'borrower': undeclared identifier
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(29,9): error C2541: 'delete': cannot delete objects that are not pointers
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(36,13): error C2065: 'borrower': undeclared identifier
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(37,13): error C2065: 'borrower': undeclared identifier
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(53,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(98,15): error C2039: 'borrower': is not a member of 'Book'
-      C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(6,8):
-      see declaration of 'Book'
-  
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(102,15): error C2039: 'borrower': is not a member of 'Book'
-      C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(6,8):
-      see declaration of 'Book'
-  
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(109,16): error C2039: 'borrower': is not a member of 'Book'
-      C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(6,8):
-      see declaration of 'Book'
-  
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(114,22): error C2039: 'borrower': is not a member of 'Book'
-      C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(6,8):
-      see declaration of 'Book'
-  
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(114,57): error C2039: 'borrower': is not a member of 'Book'
-      C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(6,8):
-      see declaration of 'Book'
-  
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(115,22): error C2039: 'borrower': is not a member of 'Book'
-      C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(6,8):
-      see declaration of 'Book'
-  
-C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(116,15): error C2039: 'borrower': is not a member of 'Book'
-      C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(6,8):
-      see declaration of 'Book'
-  
+C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(14,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(40,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\JonBe\source\repos\assignment4\assignment4\assignment4.cpp(43,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
