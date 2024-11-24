@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JonBe\\source\\repos\\Bitwise practicum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{388BB0B4-2E59-4994-AC66-E3D6A9E17CBB}|Bitwise practicum\\Bitwise practicum.vcxproj|C:\\Users\\JonBe\\source\\repos\\Bitwise practicum\\Bitwise practicum\\Bitwise practicum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{388BB0B4-2E59-4994-AC66-E3D6A9E17CBB}|Bitwise practicum\\Bitwise practicum.vcxproj|solutionrelative:Bitwise practicum\\Bitwise practicum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 289,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bitwise practicum.cpp",
+              "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\Bitwise practicum\\Bitwise practicum\\Bitwise practicum.cpp",
+              "RelativeDocumentMoniker": "Bitwise practicum\\Bitwise practicum.cpp",
+              "ToolTip": "C:\\Users\\JonBe\\source\\repos\\Bitwise practicum\\Bitwise practicum\\Bitwise practicum.cpp*",
+              "RelativeToolTip": "Bitwise practicum\\Bitwise practicum.cpp*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwEwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-20T18:05:02.982Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
