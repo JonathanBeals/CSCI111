@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\JonBe\\source\\repos\\DynamicArrays\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB45832C-6C79-4970-937C-1EA36FAFEB12}|DynamicArrays\\DynamicArrays.vcxproj|C:\\USERS\\JONBE\\SOURCE\\REPOS\\DYNAMICARRAYS\\DYNAMICARRAYS\\DYNAMICARRAY.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB45832C-6C79-4970-937C-1EA36FAFEB12}|DynamicArrays\\DynamicArrays.vcxproj|solutionrelative:DYNAMICARRAYS\\DYNAMICARRAY.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JonBe\\source\\repos\\assignment1\\CableBilling\\CableBilling.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JonBe\\source\\repos\\DynamicArrays\\DynamicArrays\\DynamicArray.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DynamicArrays\\DynamicArray.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB45832C-6C79-4970-937C-1EA36FAFEB12}|DynamicArrays\\DynamicArrays.vcxproj|C:\\Users\\JonBe\\source\\repos\\DynamicArrays\\DynamicArrays\\DynamicArrays.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,6 +26,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CableBilling.cpp",
+              "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\assignment1\\CableBilling\\CableBilling.cpp",
+              "RelativeDocumentMoniker": "..\\assignment1\\CableBilling\\CableBilling.cpp",
+              "ToolTip": "C:\\Users\\JonBe\\source\\repos\\assignment1\\CableBilling\\CableBilling.cpp",
+              "RelativeToolTip": "..\\assignment1\\CableBilling\\CableBilling.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T18:35:39.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DynamicArray.hpp",
               "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\DynamicArrays\\DynamicArrays\\DynamicArray.hpp",
               "RelativeDocumentMoniker": "DynamicArrays\\DynamicArray.hpp",
@@ -30,12 +46,11 @@
               "RelativeToolTip": "DynamicArrays\\DynamicArray.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-08T00:16:57.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T00:16:57.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DynamicArrays.cpp",
               "DocumentMoniker": "C:\\Users\\JonBe\\source\\repos\\DynamicArrays\\DynamicArrays\\DynamicArrays.cpp",
               "RelativeDocumentMoniker": "DynamicArrays\\DynamicArrays.cpp",
@@ -43,8 +58,7 @@
               "RelativeToolTip": "DynamicArrays\\DynamicArrays.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T18:03:43.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T18:03:43.129Z"
             }
           ]
         }
