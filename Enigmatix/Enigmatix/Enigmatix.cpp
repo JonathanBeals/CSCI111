@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <cctype>
+#include <string>
 
 class CipherWheel {
 private:
@@ -18,10 +19,18 @@ private:
 
 public:
 	// Constructor : Create the cipher wheel dynamically
-	CipherWheel(int wheelSize) : size(wheelSize), position(0);
+	CipherWheel(int wheelSize) : size(wheelSize), position(0) {
+		wheel = new char[size];
+
+		for (int i = 0; i < size; i++) {
+			wheel[i] = 'A' + (i % 26);
+		}
+	}
 
 	// Destructor : Free the dynamic memory
-	~CipherWheel();
+	~CipherWheel() {
+		delete[] wheel;
+	}
 
 	// Set the starting position of the wheel
 	void setPosition(int startPos);
@@ -33,11 +42,37 @@ public:
 	char decryptChar(char c);
 };
 
-class DynamicArray {
-	int* encypt;
-	int 
-	DynamicArray(int );
-};
+void CipherWheel::setPosition(int startPos) {
+	position = startPos % size;
+}
+
+char CipherWheel::encryptChar(char c) {
+	if (!isalpha(c)) {
+		return c;
+	}
+	c = toupper(c);
+
+	int index = charToIndex(c);
+	int newIndex = (index + position) % size;
+	char encryptedChar = indexToChar(newIndex);
+	position = (position + 1) % size;
+	return encryptedChar;
+}
+
+char CipherWheel::decryptChar(char c) {
+	if (!isalpha(c)) {
+		return c;
+	}
+	c = tolower(c);
+	int index = charToIndex(c);
+	int newIndex = (index - position) % size;
+	char decryptedChar = indexToChar(newIndex);
+	position = (position - 1 + size) % size;
+	return decryptedChar;
+
+}
+
+
 
 
 int menu();
@@ -45,13 +80,36 @@ int menu();
 int main() {
 
 	int userChoice = menu();
+	int startingPosition;
+	int decryptPosition;
 
 	switch (userChoice) {
+		//Encrypt the message
 	case 1:
-		std::cout << "You have chosen to encrypt a message\n";
+		std::cout << "You have chosen to encrypt a message\n"
+			<< "Enter a starting position";
+		std::cin >> startingPosition;
+		std::cout << "Enter message: ";
+		std::string message;
+		std::cin.ignore();
+		std::getline(std::cin, message);
+		CipherWheel wheel(26);
+		wheel.setPosition(startingPosition);
+
+		std::cout << "Encrypted message:\n";
+		for (char c : message) {
+			std::cout << wheel.encryptChar(c);
+		}
+		std::cout << std::endl;
 		break;
+	}
+	//Decrypt message // left off here
 	case 2:
 		std::cout << "You have chosen to decrypt a message\n";
+		std::cout << "You have chosen to encrypt a message\n"
+			<< "Enter the starting position";
+		if (decryptPosition == startingPosition)
+
 		break;
 	case 3:
 		std::cout << "Program is exiting!";
@@ -61,19 +119,20 @@ int main() {
 }
 
 int menu() {
-	int choice;
+	int menuChoice;
 	while (true) {
 		std::cout << "Welcome to the Enigma Wheel cipher\n"
 			<< "1. Encrypt a message.\n"
 			<< "2. Decrypt a message.\n"
 			<< "3. Exit the program.\n"
-			<< "Enter choice: " << std::endl;
-		std::cin >> choice;
-	}
-	if (menu >= 1 && menu <= 3) {
-		return choice;
-	}
-	else {
-		std::cout << "Invalid choice, try again\n";
+			<< "Enter choice: ";
+		std::cin >> menuChoice;
+
+		if (menuChoice >= 1 && menuChoice <= 3) {
+			return menuChoice;
+		}
+		else {
+			std::cout << "Invalid choice, try again\n";
+		}
 	}
 }
