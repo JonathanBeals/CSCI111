@@ -36,28 +36,44 @@ public:
 class DynamicArray {
 	int* encypt;
 	int 
-	DynamicArray(int s);
+	DynamicArray(int );
 };
 
 
+int menu();
+
 int main() {
 
-	int choice;
+	int userChoice = menu();
 
-	std::cout << "Welcome to the Enigma Wheel cipher\n"
-		<< "1. Encrypt a message.\n"
-		<< "2. Decrypt a message.\n"
-		<< "3. Exit the program. " << std::endl;
-
-	std::cin >> choice;
-
-	switch (choice) {
+	switch (userChoice) {
 	case 1:
+		std::cout << "You have chosen to encrypt a message\n";
+		break;
 	case 2:
+		std::cout << "You have chosen to decrypt a message\n";
+		break;
 	case 3:
+		std::cout << "Program is exiting!";
+		break;
 	}
-
-	
-
 	return 0;
+}
+
+int menu() {
+	int choice;
+	while (true) {
+		std::cout << "Welcome to the Enigma Wheel cipher\n"
+			<< "1. Encrypt a message.\n"
+			<< "2. Decrypt a message.\n"
+			<< "3. Exit the program.\n"
+			<< "Enter choice: " << std::endl;
+		std::cin >> choice;
+	}
+	if (menu >= 1 && menu <= 3) {
+		return choice;
+	}
+	else {
+		std::cout << "Invalid choice, try again\n";
+	}
 }

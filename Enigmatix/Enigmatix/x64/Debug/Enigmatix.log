@@ -1,0 +1,4 @@
+﻿  Enigmatix.cpp
+C:\Users\JonBe\source\repos\Enigmatix\Enigmatix\Enigmatix.cpp(21,59): error C2969: syntax error: ';': expected member function definition to end with '}'
+C:\Users\JonBe\source\repos\Enigmatix\Enigmatix\Enigmatix.cpp(36,7): error C2059: syntax error: '<class-head>'
+C:\Users\JonBe\source\repos\Enigmatix\Enigmatix\Enigmatix.cpp(21,59): error C2630: ';' found in what should be a comma-separated list
