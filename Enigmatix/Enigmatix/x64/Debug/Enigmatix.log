@@ -1,2 +1,2 @@
 ﻿  Enigmatix.cpp
-C:\Users\JonBe\source\repos\Enigmatix\Enigmatix\Enigmatix.cpp(20,1): error C4716: 'CipherWheel::charToIndex': must return a value
+  Enigmatix.vcxproj -> C:\Users\JonBe\source\repos\Enigmatix\x64\Debug\Enigmatix.exe

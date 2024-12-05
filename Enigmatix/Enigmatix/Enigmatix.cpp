@@ -13,14 +13,23 @@ private:
 
 	// Converts a character to its 0- based index (A=0, B=1, etc .)
 	int charToIndex(char c) {
-		for (int i = 0; i < 26; i++) {
-			char A = 0, B = 1, C = 2; // Not correct, rework
-			c++;
+		if (isalpha(c)) {
+			return toupper(c) - 'A';
+		}
+		else {
+			return -1;
 		}
 	}
 
 	// Converts a 0- based index back to a character
-	char indexToChar(int index);
+	char indexToChar(int index) {
+		if (index >= 0 && index < 26) {
+			return 'A' + index;
+		}
+		else {
+			return '?';
+		}
+	}
 
 public:
 	// Constructor : Create the cipher wheel dynamically
@@ -55,76 +64,42 @@ char CipherWheel::encryptChar(char c) {
 	if (!isalpha(c)) {
 		return c;
 	}
+	bool isLower = islower(c);
 	c = toupper(c);
 
 	int index = charToIndex(c);
 	int newIndex = (index + position) % size;
 	char encryptedChar = indexToChar(newIndex);
 	position = (position + 1) % size;
-	return encryptedChar;
+	return isLower ? tolower(encryptedChar) : encryptedChar;
 }
 
 char CipherWheel::decryptChar(char c) {
 	if (!isalpha(c)) {
 		return c;
 	}
-	c = tolower(c);
+	bool isLower = islower(c);
+	c = toupper(c);
+
 	int index = charToIndex(c);
-	int newIndex = (index - position) % size;
+	int newIndex = (index - position + size) % size;
 	char decryptedChar = indexToChar(newIndex);
-	position = (position - 1 + size) % size;
-	return decryptedChar;
+	position = (position + 1) % size;
+	return isLower ? tolower(decryptedChar) : decryptedChar;;
 
-}
-
-int menu();
-
-int main() {
-
-	int userChoice = menu();
-	int startingPosition;
-	std::string encryptedMessage;
-
-	if (userChoice == 1) {
-
-		//Encrypt the message
-		std::cout << "You have chosen to encrypt a message\n"
-			<< "Enter a starting position";
-		std::cin >> startingPosition;
-		std::cout << "Enter message: ";
-		std::string message;
-		std::cin.ignore();
-		std::getline(std::cin, message);
-		CipherWheel wheel(26);
-		wheel.setPosition(startingPosition);
-		std::cout << "Encrypted message: \n";
-	}
-	else if (userChoice == 2) {
-		//Decrypt the message
-		std::cout << "You have chosent to decrypt a message\n"
-			<< "Enter a starting position";
-		std::cin >> startingPosition;
-		std::cout << "Enter encrypted message: ";
-		std::string encryptedMessage;
-		std::cin.ignore();
-		std::getline(std::cin, encryptedMessage);
-		CipherWheel wheel(26);
-		wheel.setPosition(startingPosition);
-		std::cout << "Decrypted message: \n";
-	}
-	else {
-		std::cout << "Thanks for using the Enigma Cipher wheel!";
-	}
-return 0;
+	
 }
 
 int menu() {
 	int menuChoice;
 	while (true) {
-		std::cout << "Welcome to the Enigma Wheel cipher\n"
+		std::cout 
+			<< "----------------------------------\n"
+			<< "Welcome to the Enigma Wheel cipher\n"
 			<< "1. Encrypt a message.\n"
 			<< "2. Decrypt a message.\n"
 			<< "3. Exit the program.\n"
+			<< "----------------------------------\n"
 			<< "Enter choice: ";
 		std::cin >> menuChoice;
 
@@ -132,7 +107,83 @@ int menu() {
 			return menuChoice;
 		}
 		else {
-			std::cout << "Invalid choice, try again\n";
+			std::cout << "Invalid choice, try again\n" 
+				<< "----------------------------------\n";
 		}
 	}
+}
+
+int main() {
+
+	while (true) {
+		int userChoice = menu();
+		//Exit program
+		if (userChoice == 3) {
+			std::cout << "Thanks for using the Enigma Cipher wheel!" << std::endl;
+			break;
+		}
+		int startingPosition;
+		std::string message;
+
+		if (userChoice == 1) {
+
+			//Encrypt the message
+			std::cout << "You have chosen to encrypt a message\n"
+				<< "----------------------------------\n"
+				<< "Enter a starting position: ";
+			std::cin >> startingPosition;
+			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+			if (startingPosition < 1 || startingPosition > 26) {
+				std::cout << "Invalid position. Please enter a value between 1 and 26\n";
+				std::cin.clear();
+				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+				continue;
+			}
+
+			std::cout << "----------------------------------\n" 
+				<< "Enter message: ";
+			
+			std::getline(std::cin, message);
+
+			CipherWheel wheel(26);
+			wheel.setPosition(startingPosition - 1);
+
+			std::cout << "Encrypted message: ";
+			for (char c : message) {
+				std::cout << wheel.encryptChar(c);
+			}
+			std::cout << std::endl;
+		}
+		else if (userChoice == 2) {
+
+			//Decrypt the message
+			std::cout << "You have chosen to decrypt a message\n"
+				<< "Enter the starting position: ";
+			std::cin >> startingPosition;
+			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+			if (startingPosition < 1 || startingPosition > 26) {
+				std::cout << "Invalid position. Please enter a value between 1 and 26\n";
+				std::cin.clear();
+				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+				continue;
+			}
+
+			
+
+			std::cout << "Enter message: ";
+			std::getline(std::cin, message);
+
+			CipherWheel wheel(26);
+			wheel.setPosition(startingPosition - 1);
+
+			std::cout << "Decrypted message: ";
+			for (char c : message) {
+				std::cout << wheel.decryptChar(c);
+			}
+			std::cout << std::endl;
+		}
+	}
+	return 0;
 }
